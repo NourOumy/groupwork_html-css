@@ -1,0 +1,40 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+.filter{
+    /* filter: brightness(50%); */
+    filter: blur(5px);
+    /* filter: drop-shadow(3px 3px red); */
+    
+}
+/*  ATTENTION - un shape ne fonctionnera pas autour d'une img rectangulaire */
+.shape{
+    /* shape-outside:ellipse(100px 200px at 50% 50%); */
+    shape-outside: circle(30%);
+    /* shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); */
+    height: 300px;
+    width: 500px;
+    float: left;
+    background-color: cornsilk;
+    /* le shape-outside n'agit pas sur l'image, ni sur le bg img; */
+    /* background: url(../img/ql06k02m.bmp) center/cover; */
+}
+
+
+.sticky{
+    position: sticky;
+    /* mettre un top de 0 pour le mettre collé au dessus */
+    top: 50px;
+    background-color: pink;
+    font-size: 25px;
+}

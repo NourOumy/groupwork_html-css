@@ -46,3 +46,8 @@ La propriété CSS filter permet d'appliquer des filtres et d'obtenir des effets
   Applique un niveau de transparence. Un coefficient de 0% rendra l'image complètement transparente tandis qu'un coefficient de 100% laissera l'image inchangée.
   
 ## **datalist**
+
+L'élément HTML <datalist> (une liste de données) contient un ensemble d'éléments <option> qui représentent les valeurs possibles.
+
+[datalist](https://developer.mozilla.org/fr/docs/Web/HTML/Element/datalist)
+ 
